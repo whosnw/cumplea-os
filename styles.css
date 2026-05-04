@@ -500,7 +500,7 @@ body {
     user-select: none;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
     animation: flotar 2s ease-in-out infinite,
-               brillo 1.5s infinite;
+               brilloletra 1.5s infinite;
 }
 
 /* Modal */
@@ -595,6 +595,14 @@ body {
   }
 }
 
+@keyframes brilloletra {
+  from, to {
+    text-shadow: 0 0 3px #fff, 0 0 6px #ff4d6d, 0 0 9px #ff4d6d;
+  }
+  50% {
+    text-shadow: 0 0 6px #fff, 0 0 12px #ff4d6d, 0 0 18px #ff4d6d;
+  }
+}
 /*Confeti Delante*/
 #canvas2 {
   position: absolute; 
