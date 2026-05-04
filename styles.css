@@ -224,7 +224,7 @@ body {
 .overlay {
   position: fixed;
   inset: 0;
-  background-color: #001d4a !important
+  background-color: black;
   opacity: 1;
   z-index: 9999;
   transition: opacity 1.5s ease;
@@ -232,13 +232,6 @@ body {
 .overlay.hidden {
   opacity: 0;
   pointer-events: none;
-}
-
-/* Fondo general del sitio */
-body {
-  background-color: #001d4a !important;
-  margin: 0;
-  overflow: hidden;
 }
 
 @keyframes apagar {
