@@ -129,7 +129,7 @@ body {
 .torta:before {
   content: "";
   position: absolute;
-  background-color: #ff9393;
+  background-color: #40e0d0;
   width: 275px;
   height: 15px;
   top: 75px;
@@ -545,7 +545,7 @@ body {
 .carta h2 {
   font-family: cursive;
   font-size: 28px;
-  color: #fd7e91; 
+  color: #e23636; 
   margin-bottom: 16px;
   text-align: center;
 }
@@ -588,10 +588,10 @@ body {
 
 @keyframes brillo {
   from, to {
-    text-shadow: 0 0 3px #fff, 0 0 6px #ff4d6d, 0 0 9px #40e0d0;
+    text-shadow: 0 0 3px #fff, 0 0 6px #40e0d0, 0 0 9px #40e0d0;
   }
-  50% {
-    text-shadow: 0 0 6px #fff, 0 0 12px #ff4d6d, 0 0 18px #40e0d0;
+  50 {
+    text-shadow: 0 0 6px #fff, 0 0 12px #40e0d0, 0 0 18px #40e0d0;
   }
 }
 
