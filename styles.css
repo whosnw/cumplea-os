@@ -3,12 +3,11 @@ html {
 }
 
 body {
-  background-color: #001d4a !important; /* El !important obliga al navegador a usar este color */
+  background-color: rgba(255, 182, 193, 1);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
 }
 
 /*Confeti Atras*/
@@ -130,11 +129,11 @@ body {
 .torta:before {
   content: "";
   position: absolute;
-  background-color: #40e0d0;
+  background-color: #447BBE;
   width: 275px;
   height: 15px;
   top: 75px;
-  box-shadow: 0 30px #ff9393;
+  box-shadow: 0 30px #2B3685;
 }
 
 .torta:after {
@@ -154,11 +153,11 @@ body {
   left: 0;
   z-index: 1;
   border-radius: 50px;
-  box-shadow: 25px 2px #FDE8C8, 50px -10px #ff5959, 
-              75px -5px #FDE8C8, 100px 3px #ff5959,
-              125px 0px #FDE8C8, 150px -5px #ff5959,
-              175px 3px #FDE8C8, 200px -5px #ff5959,
-              225px -10px #FDE8C8, 250px 4px #ff5959;
+  box-shadow: 25px 2px #FDE8C8, 50px -10px #2B3685, 
+              75px -5px #FDE8C8, 100px 3px #2B3685,
+              125px 0px #FDE8C8, 150px -5px #2B3685,
+              175px 3px #FDE8C8, 200px -5px #2B3685,
+              225px -10px #FDE8C8, 250px 4px #2B3685;
 }
 
 .vela {
