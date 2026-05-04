@@ -153,11 +153,11 @@ body {
   left: 0;
   z-index: 1;
   border-radius: 50px;
-  box-shadow: 25px 2px #FDE8C8, 50px -10px #FF9393, 
-              75px -5px #FDE8C8, 100px 3px #FF9393,
-              125px 0px #FDE8C8, 150px -5px #FF9393,
-              175px 3px #FDE8C8, 200px -5px #FF9393,
-              225px -10px #FDE8C8, 250px 4px #FF9393;
+  box-shadow: 25px 2px #FDE8C8, 50px -10px #E74F5A, 
+              75px -5px #FDE8C8, 100px 3px #E74F5A,
+              125px 0px #FDE8C8, 150px -5px #E74F5A,
+              175px 3px #FDE8C8, 200px -5px #E74F5A,
+              225px -10px #FDE8C8, 250px 4px #E74F5A;
 }
 
 .vela {
@@ -496,9 +496,9 @@ body {
     transform: translateX(-50%);
     font-family: 'Pacifico', cursive;
     font-size: 40px;
-    color: #A3C5EA;
+    color: #FFF1BD;
     user-select: none;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.15);
+    text-shadow: 2px 2px 4px rgba(255, 234, 143, 1);
     animation: flotar 2s ease-in-out infinite,
                brillo 1.5s infinite;
 }
