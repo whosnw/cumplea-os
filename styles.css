@@ -3,11 +3,12 @@ html {
 }
 
 body {
-  background-color: #001d4a;
+  background-color: #001d4a !important; /* El !important obliga al navegador a usar este color */
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 /*Confeti Atras*/
